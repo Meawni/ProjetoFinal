@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+<style>
+		body {
+		background-image: url("https://wallpaperaccess.com/full/5964433.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Bararomkhan</title>
+</h:head>
+<body bgcolor="#FFFAFA">
+		<h:form>
+				<h1 style="text-align:center;">Seja bem vindo ao nosso site</h1>
+				<center><h2><h:outputText value="#{cadastro.username}"/></h2></center>
+				<h3 style="text-align:center;">Aqui temos sinopses de Animes e Filmes!</h3>
+				<h3 style="text-align:center;">Oque você esta procurando?</h3>
+				<center><h:commandButton value="Animes" action="animes" /></center>
+				<center><img src="https://cdn.discordapp.com/attachments/440565429052637224/962865644427178044/685590709113585725.gif"/></center>
+				<center><h:commandButton value="Filmes" action="filmes" /></center>
+				<center><img src="https://cdn.discordapp.com/attachments/440565429052637224/962868041195090000/890723510371123200.gif"/></center>
+				<center><h:commandButton value="LogOut" action="logout" /></center>
+				
+		</h:form>
+</body>
+</html>

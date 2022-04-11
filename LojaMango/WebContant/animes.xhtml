@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Bararomkhan</title>
+</h:head>
+<style>
+		body {
+		background-image: url("https://i.pinimg.com/originals/ec/2b/26/ec2b2668869590e1a4f5297a7c935171.gif");
+		}
+		
+		#flex-container {
+		display: flex;
+		flex-flow: row wrap;
+		}
+		
+		#manga-1, #manga-2, #manga-3, #manga-4, #manga-5, #manga-6, #manga-7, #manga-8, #manga-9, #manga-10, #manga-11, #manga-12 {
+		margin: 70px;
+		}
+		
+		span {
+		display: flex;
+		flex-direction: row;
+		 }
+</style>
+<body bgcolor="#FFA07A">
+<h:panelGrid id = "panel" columns = "2">
+		<h:form>
+		<center><h:commandButton value="Home" action="welcome" /></center>
+		<div id="flex-container">
+		<div id="manga-1">
+		<img src= "https://cdn.myanimelist.net/images/anime/1223/96541.jpg"/>
+		<h4> Fullmetal Alchemist: Brotherhood </h4>
+		<h:commandButton value="Sinopse" action="sinopseFMA" />
+		</div>
+		
+		<div id="manga-2">
+		<img src= "https://cdn.myanimelist.net/images/anime/3/72078.jpg"/>
+		<h4> Gintama </h4>
+		<h:commandButton value="Sinopse" action="sinopseGin" />
+		</div>
+				
+		<div id="manga-3">
+		<img src= "https://cdn.myanimelist.net/images/anime/5/73199.jpg"/>
+		<h4> Steins Gate </h4>
+		<h:commandButton value="Sinopse" action="sinopseSta" />
+		</div>
+		
+		<div id="manga-4">
+		<img src= "https://cdn.myanimelist.net/images/anime/1337/99013.jpg"/>
+		<h4> Hunter x Hunter </h4>
+		<h:commandButton value="Sinopse" action="sinopseHxH" />
+		</div>
+		
+		<div id="manga-5">
+		<img src= "https://cdn.myanimelist.net/images/anime/1440/121382.jpg"/>
+		<h4> Spy x Family </h4>
+		<h:commandButton value="Sinopse" action="sinopseSpy" />
+		</div>		
+		
+		<div id="manga-6">
+		<img src= "https://cdn.myanimelist.net/images/anime/1517/100633.jpg"/>
+		<h4> Shingeki no Kyojin </h4>
+		<h:commandButton value="Sinopse" action="sinopseShin" />
+		</div>
+		
+		<div id="manga-7">
+		<img src= "https://cdn.myanimelist.net/images/anime/1085/114792.jpg"/>
+		<h4> Fruits Basket </h4>
+		<h:commandButton value="Sinopse" action="sinopseFruits" />
+		</div>
+		
+		<div id="manga-8">
+		<img src= "https://cdn.myanimelist.net/images/anime/1430/118919.jpg"/>
+		<h4> Kaguya-sama wa Kokurasetai </h4>
+		<h:commandButton value="Sinopse" action="sinopseKaguya" />
+		</div>
+		
+		<div id="manga-9">
+		<img src= "https://cdn.myanimelist.net/images/anime/2/11232.jpg"/>
+		<h4> Nana </h4>
+		<h:commandButton value="Sinopse" action="sinopseNana" />
+		</div>
+		
+		<div id="manga-10">
+		<img src= "https://cdn.myanimelist.net/images/anime/1918/96303.jpg"/>
+		<h4> Mob Psycho 100 </h4>
+		<h:commandButton value="Sinopse" action="sinopseMob" />
+		</div>
+		
+		<div id="manga-11">
+		<img src= "https://cdn.myanimelist.net/images/anime/1908/120036.jpg"/>
+		<h4> Kimetsu no Yaiba </h4>
+		<h:commandButton value="Sinopse" action="sinopseKime" />
+		</div>
+		
+		<div id="manga-12">
+		<img src= "https://cdn.myanimelist.net/images/anime/1807/121534.jpg"/>
+		<h4> Monogatari Series </h4>
+		<h:commandButton value="Sinopse" action="sinopseMono" />
+		</div>
+		
+		</div> 	
+</h:form>	
+</h:panelGrid>		
+</body>
+</html>
