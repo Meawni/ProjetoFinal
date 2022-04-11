@@ -1,2 +1,3 @@
-# AulasSenaiEclipse + Projeto final
-Exercicios que foram feito no eclipse + Projeto Final
+# Projeto final senai Java
+ 
+Projeto final feito em dupla com Gustavo Henrique de Souza
